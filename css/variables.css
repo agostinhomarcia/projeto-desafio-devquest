@@ -1,0 +1,6 @@
+:root {
+    --primary: hsl(257, 40%, 49%);
+    --hover: rgb(247, 17, 56);
+    --white: rgb(95, 238, 23);
+    --border: #1f0729;
+}
