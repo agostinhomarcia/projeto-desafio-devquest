@@ -64,7 +64,7 @@
 
 @media(max-width:425px) {
     .container {
-        background-image: url(/images/bg-mobile.svg);
+        background-image: url(../images/bg-mobile.svg);
         /* background-size: cover; */
     }
 
