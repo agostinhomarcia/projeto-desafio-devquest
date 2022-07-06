@@ -1,87 +1,71 @@
-@media(max-width:1024px) {
+@media (max-width: 576px) {
 
-    .container {
+    body {
+        background: url(../images/bg-mobile.svg) center center no-repeat;
+        background-size: cover;
+        background-color: hsl(257, 40%, 49%);
         display: flex;
         flex-direction: column;
-    }
-
-    .header-Logo {
-        margin-top: 30px;
-    }
-
-    .header-Logo img {
-        max-width: 200px;
-    }
-
-    .conteudo {
-        flex-direction: column;
-        justify-content: center;
         align-items: center;
-    }
-
-    .conteudo .conteudo-img img {
-        display: flex;
         justify-content: center;
+        margin: 0 30px;
     }
 
-    .conteudo .conteudo-texto {
-        text-align: center;
+
+    h1 {
+        font-size: 2rem;
     }
 
-    .conteudo .conteudo-texto h1 {
-        margin: 50px 81px;
+    p {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
     }
 
-    .conteudo .conteudo-texto p {
-        max-width: 700px;
-        text-align: center;
-        margin: 0 auto;
-
+    .header {
+        align-self: flex-start;
+        margin: 0px 0px 50px 0px;
     }
 
-    .conteudo .conteudo-texto .btn-register {
-        margin-top: 50px;
-        padding: 2% 13%;
+    .header .logo {
+        width: 125px;
     }
 
-    .footer {
-        display: flex;
-        align-items: center;
-        margin-top: 100px;
-    }
-
-    .footer .redes {
-        margin: 0 auto;
-    }
-}
-
-@media(max-width:768px) {
-    .conteudo .conteudo-texto h1 {
-        max-width: 641px;
-        margin-top: 0;
-    }
-}
-
-@media(max-width:425px) {
-    .container {
-        background-image: url(../images/bg-mobile.svg);
-        /* background-size: cover; */
-    }
-
-    .header-Logo img {
-        max-width: 200px;
-    }
-
-    .conteudo .conteudo-img img {
+    .header .logo img {
         width: 100%;
-        height: auto;
-    }
-}
-
-@media(max-width:320px) {
-    .header-Logo {
-        margin-top: 0;
     }
 
+    .illustration {
+        margin-left: 0;
+    }
 
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about p {
+        width: 230px;
+    }
+
+    .about .signup button {
+        font-size: 1rem;
+        width: 150px;
+        height: 30px;
+    }
+
+    .social a {
+        width: 2.2rem;
+        height: 2.2rem;
+        margin: 5px;
+    }
+
+    .social i {
+        font-size: 1rem;
+    }
+
+    .footer .attribution {
+        font-size: 1rem;
+    }
 }

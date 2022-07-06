@@ -2,15 +2,27 @@
     margin: 0;
     padding: 0;
     border: none;
+    outline: none;
+    font-weight: 300;
     box-sizing: border-box;
-    background-repeat: no-repeat;
-    
 }
-html {
-    font-size:62.5%;
+
+body {
+    color: white;
 }
 
 a {
     text-decoration: none;
-    color: #FFF;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    color: white;
+    border: none;
+    text-decoration: none;
+    background: none;
 }
